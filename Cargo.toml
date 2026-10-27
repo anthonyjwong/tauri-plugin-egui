@@ -9,7 +9,7 @@ rust-version = "1.77.2"
 links = "tauri-plugin-egui"
 
 [dependencies]
-tauri = "2.7.0"
+tauri = { version = "2.7.0", features = ["unstable"] }
 tauri-runtime = "2.7.1"
 tauri-runtime-wry = "2.7.2"
 anyhow = "1.0.98"
